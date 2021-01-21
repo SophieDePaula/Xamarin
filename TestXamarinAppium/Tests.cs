@@ -35,7 +35,7 @@ namespace TestXamarinAppium
 
             // Initialize the eyes SDK and set your private API key.
             eyes = new Eyes();
-            //eyes.ApiKey = "ioRRQOF5YBYU6NIwbe3tuDFCX8H109mmenarZo8arSlbA110";
+
             eyes.ApiKey = Environment.GetEnvironmentVariable("APPLITOOLS_API_KEY");
 
             //Hides the scroll bar
